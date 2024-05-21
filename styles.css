@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+
+table,th,td{
+	border: 1px solid;
+	border-collapse:collapse;
+	width:500px;
+}
+tr:nth-child(even),th{
+	background-color: mistyrose;
+}
+tr:nth-child(odd){
+	background-color : pink;
+}
